@@ -6,7 +6,7 @@ see: http://localhost:8888/notebooks/P1.ipynb
 
 See 
 https://github.com/udacity/CarND-LaneLines-P1
-for started code.
+for starter code.
 
 @author: michaelg@bluemetal.com
 """
