@@ -20,7 +20,7 @@ and paint lines on the image like this:
 
 Moreover, the project solution had to process a video taken from cars driving on the highway.
 
-** Processing Pipeline ** 
+## Processing Pipeline
 To accomplish this task, I built an image processing pipeline, which consisted of the following steps.
 
 * Read image or video
@@ -39,7 +39,7 @@ To get started, Udacity kindly gave students a number of helper functions. Stude
 
 The biggest hurdle to overcome by students was to use the Hough lines properly. The Hough transformation produces an array of line segments, i.e. every line the algorithm finds in the image. There can be *many* such lines. The tricky part is to find the line segments that represent the lane lines, "paste" those together somehow, and extrapolate them to the proper locations in the image. My function to do this is called `draw_lines`. 
 
-** Shortcomings **
+## Shortcomings
 In general my solution performed well for the two basic cases
 * solidWhiteRight.mp4
 * solidYellowLeft.mp4
@@ -49,7 +49,7 @@ There was a lot of jitter in the computed lines indicating that my code frequent
 My solution performed *very* poorly for the challenge problem (challenge.mp4). I did not give myself enough time to investigate why, but I suspect it was due to the different image sizes. My solution used too many hardcoded parameters for the image sizes used in the previous two examples. This led to crazy lane line identification that would confuse any self-driving car.
 
 
-** Possible Improvements **
+## Possible Improvements
 
 There are a number of possible improvements to make.
 1. Linear regression to determine best possible line from a set of line segments
