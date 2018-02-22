@@ -5,11 +5,11 @@ You can either download the project1.py file or load the P1.ipynb Jupyter notebo
 
 The original project description can be found here. https://github.com/udacity/CarND-LaneLines-P1
 
-
+The basic challenge of this project is to take images like this:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images/solidWhiteRight.jpg "Original"
 
 
-![alt text][image1]
+![original][image1]
