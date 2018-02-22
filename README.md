@@ -17,5 +17,19 @@ The basic challenge of this project is to take images like this:
 
 and paint lines on the image like this:
 
-
 ![Original image with lane lines][image2]
+
+Moreover, the project solution had to process a video taken from cars driving on the highway.
+
+To accomplish this task, I built an image processing pipeline. 
+
+Read image
+Convert image to grayscale
+Define kernel size and apply Gaussian smoothing for slight blurring
+Define parameters for Canny transformation
+Canny transform to find edges in image
+Mask image using cv2.fillPoly() to remove everything outside region of interest
+Define Hough transform parameters and run Hough transform on masked edge-detected image
+Draw line segments
+Draw lines extrapolated from line segments
+Overlay lines on original image
