@@ -55,8 +55,8 @@ There are a number of possible improvements to make.
 1. Linear regression to determine best possible line from a set of line segments
 2. Non-linear fitting of curving lines to account for cars travelling around corners
 3. Tracking lanes from frame-to-frame to make it easier to determine
-* lanes from frame-to-frame
-* if car is crossing lanes
+&nbsp;&nbsp;&nbsp;&nbsp; * lanes from frame-to-frame
+&nbsp;&nbsp;&nbsp;&nbsp; * if car is crossing lanes
 4. Defining ranges of possible slopes and intercepts to avoid spurious, i.e. jittery, lines
 5. Smoothing slopes and intercepts from one frame to the next. Cars are not generally swerving around the road.
 6. More general parameterization for varying image size.
