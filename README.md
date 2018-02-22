@@ -23,13 +23,16 @@ Moreover, the project solution had to process a video taken from cars driving on
 
 To accomplish this task, I built an image processing pipeline. 
 
-Read image
-Convert image to grayscale
-Define kernel size and apply Gaussian smoothing for slight blurring
-Define parameters for Canny transformation
-Canny transform to find edges in image
-Mask image using cv2.fillPoly() to remove everything outside region of interest
-Define Hough transform parameters and run Hough transform on masked edge-detected image
-Draw line segments
-Draw lines extrapolated from line segments
-Overlay lines on original image
+* Read image or video
+* Convert image to grayscale
+* Define kernel size and apply Gaussian smoothing for slight blurring
+* Define parameters for Canny transformation
+* Canny transform to find edges in image
+* Mask image using cv2.fillPoly() to remove everything outside region of interest
+* Define Hough transform parameters and run Hough transform on masked edge-detected image
+* Draw line segments
+* Draw lines extrapolated from line segments
+* Overlay lines on original image
+* Write image or video to files
+
+
