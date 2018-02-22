@@ -10,7 +10,7 @@ The basic challenge of this project is to take images like this:
 [//]: # (Image References)
 
 [image1]: ./test_images/solidWhiteRight.jpg "Original"
-[image1]: ./examples/laneLines_thirdPass.jpg "Original with lane lines"
+[image2]: ./examples/laneLines_thirdPass.jpg "Original with lane lines"
 
 
 ![Original image][image1]
