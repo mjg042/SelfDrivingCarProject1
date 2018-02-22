@@ -12,3 +12,4 @@ The original project description can be found here. https://github.com/udacity/C
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
 
+![alt text][image1]
