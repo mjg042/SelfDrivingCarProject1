@@ -4,11 +4,14 @@ Created on Sun Feb 11 14:29:22 2018
 
 see: http://localhost:8888/notebooks/P1.ipynb
 
+See 
+https://github.com/udacity/CarND-LaneLines-P1
+for started code.
+
 @author: michaelg@bluemetal.com
 """
 
 import os
-#importing some useful packages
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
@@ -102,6 +105,9 @@ def GetLineIntersection(line1, line2):
     """
     Note: this function finds the interesection between two lines. It's used here to
     find where the lane lines converge in the distance.
+    Taken from
+    https://stackoverflow.com/questions/20677795/how-do-i-compute-the-intersection-point-of-two-lines-in-python
+    
     """
     xdiff = (line1[0][0] - line1[1][0], line2[0][0] - line2[1][0])
     ydiff = (line1[0][1] - line1[1][1], line2[0][1] - line2[1][1]) #Typo was here
